@@ -1,0 +1,43 @@
+$primarycolor:#800080;
+$purple: #800080;
+$pink: #ffc0cb;
+$list1: $pink, $purple;
+@mixin gradient($pink, $purple) {
+  background: linear-gradient(to right, $pink, $purple);
+}
+table {
+  text-align: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 50px;
+  tr {
+    background-color: purple;
+  }
+}
+
+body {
+  @include gradient($pink, $purple);
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  text-align: center;
+  color:white ;
+
+  &:hover {
+    color: $primarycolor;
+  }
+}
+.container {
+  h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+  }
+
+}

@@ -1,0 +1,32 @@
+table {
+  text-align: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 50px;
+}
+table tr {
+  background-color: purple;
+}
+
+body {
+  background: linear-gradient(to right, #ffc0cb, #800080);
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+h1:hover {
+  color: #800080;
+}
+
+.container h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}/*# sourceMappingURL=style.css.map */
